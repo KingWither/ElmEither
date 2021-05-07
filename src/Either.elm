@@ -1,9 +1,9 @@
 module Either exposing
     ( Either(..)
     , left, right, leftI, rightI
-    , Side(..), side, sameSide, allSameSide
+    , Side(..), side, isOnSide, sameSide, allSameSide
     , lefts, rights
-    , flip, isOnSide
+    , flip
     )
 
 {-| This module implements 'Either' like in Haskell.
