@@ -23,7 +23,7 @@ Although `Maybe` is implemented in Elm, `Either` is not; until now. This module 
 Just do
 
 ```
-elm install kingwither/either
+elm install kingwither/elmeither
 ```
 
 and the package will be installed!
