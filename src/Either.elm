@@ -3,7 +3,7 @@ module Either exposing
     , left, right, leftI, rightI
     , Side(..), side, sameSide, allSameSide
     , lefts, rights
-    , flip
+    , flip, isOnSide
     )
 
 {-| This module implements 'Either' like in Haskell.
@@ -31,7 +31,7 @@ module Either exposing
 
 # Misc
 
-@docs flips
+@docs flip
 
 -}
 
