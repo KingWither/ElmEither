@@ -1,6 +1,6 @@
 {
     "type": "package",
-    "name": "kingwither/either",
+    "name": "kingwither/elmeither",
     "summary": "Haskell's 'Either' type",
     "license": "BSD-3-Clause",
     "version": "1.0.0",
