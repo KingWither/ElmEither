@@ -3,9 +3,14 @@
 The first time I tried Functional Programming, I thought "What the hell is this? Why would anybody program this way?" Then, I tried it out a little more. Then I realized how fun it is. Particularly the genius that comes with having to be resourceful. In no instance is that clearer than Haskell's `Maybe` and `Either` declarations.
 
 ```Haskell
+
+-- Basiclly a nullable value. It could exist (as any type) or it could be Nothing. Akin to Java's '@nullable' annotation
+
 type Maybe a
     = Just a
     | Nothing
+
+-- Could be of type a or type b.
 
 type Either a b
     = Left a
