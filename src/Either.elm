@@ -1,6 +1,38 @@
-module Either exposing (Either(..), Side(..), allSameSide, flip, left, leftI, lefts, right, rightI, rights, sameSide, side)
+module Either exposing
+    ( Either(..)
+    , left, right, leftI, rightI
+    , Side(..), side, sameSide, allSameSide
+    , lefts, rights
+    , flip
+    )
 
 {-| This module implements 'Either' like in Haskell.
+
+
+# Either
+
+@docs Either
+
+
+# Deconstructing
+
+@docs left, right, leftI, rightI
+
+
+# Sides
+
+@docs Side, side, isOnSide, sameSide, allSameSide
+
+
+# Lists
+
+@docs lefts, rights
+
+
+# Misc
+
+@docs flips
+
 -}
 
 import List exposing (concatMap, head, map)
