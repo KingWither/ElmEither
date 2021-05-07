@@ -4,7 +4,8 @@ The first time I tried Functional Programming, I thought "What the hell is this?
 
 ```Haskell
 
--- Basiclly a nullable value. It could exist (as any type) or it could be Nothing. Akin to Java's '@nullable' annotation
+-- Basically a nullable value. It could exist (as any type) or it could be Nothing. 
+-- Akin to Java's '@nullable' annotation
 
 type Maybe a
     = Just a
