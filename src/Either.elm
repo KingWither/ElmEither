@@ -3,7 +3,6 @@ module Either exposing (Either(..), Side(..), allSameSide, flip, left, leftI, le
 {-| This module implements 'Either' like in Haskell.
 -}
 
-import Html exposing (a)
 import List exposing (concatMap, head, map)
 import Maybe exposing (withDefault)
 
